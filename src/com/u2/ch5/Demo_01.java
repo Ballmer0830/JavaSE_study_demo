@@ -11,8 +11,14 @@ package com.u2.ch5;
  */
 public class Demo_01 {
     public static void main(String[] args) {
-        int score = 55;
+        int score = 66;
         String res = score >=60 ?"及格":"不及格";
         System.out.println(res);
+
+        System.out.println("======================");
+
+        int age = 1;
+        String result = age >=18 ?"成年":"未成年";
+        System.out.println(result);
     }
 }

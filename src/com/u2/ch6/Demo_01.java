@@ -27,5 +27,21 @@ public class Demo_01 {
         System.out.println();
         System.out.println("=============");
         System.out.println(count);
+
+        System.out.println("老师的写法");
+
+        int count1 = 0;
+        for (int i = 1; i <=100 ; i++) {
+            if (i%3==0 && i%5!=0){
+                count1++;
+                System.out.print(i+"\t");
+                if (count1%5==0){
+                    System.out.println();
+                }
+            }
+        }
+        System.out.println();
+        System.out.println("=============");
+        System.out.println(count1);
     }
 }
