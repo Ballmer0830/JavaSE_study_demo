@@ -11,7 +11,7 @@ package com.u2.ch5;
  */
 public class Demo_03 {
     public static void main(String[] args) {
-        int num = 6;
+        int num = 15;
         switch(num){
             case 3:
             case 4:
@@ -22,7 +22,7 @@ public class Demo_03 {
             case 7:
             case 8:
                 System.out.println("夏季");
-//                break;
+                break;
             case 12:
             case 1:
             case 2:
@@ -30,7 +30,7 @@ public class Demo_03 {
                 break;
             default:
                 System.out.println("非法数字");
-                break;
+//                break;
             case 9:
             case 10:
             case 11:
