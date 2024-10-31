@@ -1,4 +1,4 @@
-package com.u01.ch07.sec0402;
+package com.u01.ch07.sec04.v4;
 
 /**
  * ClassName: Student

@@ -1,4 +1,4 @@
-package com.u01.ch07.sec0402;
+package com.u01.ch07.sec04.v1;
 
 import java.util.Scanner;
 
@@ -44,7 +44,7 @@ public class StudentController {
         }
         System.out.println("id\t\tname");
         for (Student student : students) {
-            if (student!=null){
+            if(student!=null){
                 System.out.println(student.getId()+"\t\t"+student.getName());
             }
         }

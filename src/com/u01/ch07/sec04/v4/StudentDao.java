@@ -1,4 +1,4 @@
-package com.u01.ch07.sec0401;
+package com.u01.ch07.sec04.v4;
 
 /**
  * ClassName: StudentDao
@@ -10,7 +10,7 @@ package com.u01.ch07.sec0401;
  * @version 1.0
  */
 public class StudentDao {
-    private Student[] students = new Student[5];
+    private  Student[] students = new Student[5];
 
     public boolean addStudent(Student student) {
         //原本students数组定义在addStudent方法内 因为下面查询的方法需要要这个数组

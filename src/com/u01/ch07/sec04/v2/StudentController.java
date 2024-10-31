@@ -1,4 +1,4 @@
-package com.u01.ch07.sec0403;
+package com.u01.ch07.sec04.v2;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class StudentController {
-//    private StudentService studentService = new StudentService();
+    private StudentService studentService = new StudentService();
     public void start() {
         Scanner scanner = new Scanner(System.in);
         while(true){
@@ -37,7 +37,7 @@ public class StudentController {
     }
 
     private void listStudent() {
-        StudentService studentService = new StudentService();
+//        StudentService studentService = new StudentService();
         Student[] students = studentService.listStudent();
         if (students == null){
             System.out.println("学生信息为空，请添加再查询");
@@ -58,7 +58,7 @@ public class StudentController {
         System.out.println("请输入学生姓名：");
         String name = scanner.next();
         Student student = new Student(id, name);
-        StudentService studentService = new StudentService();
+//        StudentService studentService = new StudentService();
         boolean result = studentService.addStudent(student);
         if (result){
             System.out.println("添加成功");

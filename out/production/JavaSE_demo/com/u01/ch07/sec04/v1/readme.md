@@ -1,0 +1,6 @@
+这是一个简单的学生信息管理系统的案例。
+v1版本是有问题的，新增一个学生信息之后，查询是查不到的。
+
+出现问题的原因在于：
+每次调用addStudent或listStudent方法，都会创建新的StudentService和StudentDao实例，
+导致调用addStudent，学生信息会被添加到一个新的StudentDao实例的成员数组中，而查询信息又是从另一个新的StudentDao实例的空的成员数组中查询。
