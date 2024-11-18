@@ -11,7 +11,9 @@ package com.demo;
  */
 
 public class Demo_04 {
-    public static void main(String[] args) {
 
+    String name = "xxx";
+    public static void main(String[] args) {
+//        System.out.println(this.name);
     }
 }
