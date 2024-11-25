@@ -1,4 +1,4 @@
-package com.u01.ch09.sec01;
+package com.u01.ch09.sec01.demo01;
 
 /**
  * ClassName: InterfaceAImpl
@@ -9,7 +9,7 @@ package com.u01.ch09.sec01;
  * Create 2024/11/19 6:11
  * @version 1.0
  */
-public class InterfaceAImpl implements InterfaceA {
+public abstract class InterfaceImpl1 implements InterfaceA {
     @Override
     public void print(String info) {
         System.out.println(info);
@@ -18,10 +18,5 @@ public class InterfaceAImpl implements InterfaceA {
     @Override
     public void add(int a) {
 
-    }
-
-    @Override
-    public String merge(String info, int a) {
-        return null;
     }
 }

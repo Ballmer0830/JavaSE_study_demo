@@ -1,4 +1,4 @@
-package com.u01.ch09.sec01;
+package com.u01.ch09.sec01.demo02.v03;
 
 /**
  * ClassName: InterfaceB
@@ -13,6 +13,4 @@ public interface InterfaceB {
     void print(String info);
 
     int add(int a);
-
-    String merge(String info);
 }

@@ -1,4 +1,4 @@
-package com.u01.ch09.sec01;
+package com.u01.ch09.sec01.demo02.v01;
 
 /**
  * ClassName: InterfaceA
@@ -12,7 +12,4 @@ package com.u01.ch09.sec01;
 public interface InterfaceA {
     void print(String info);
 
-    void add(int a);
-
-    String merge(String info,int a);
 }
